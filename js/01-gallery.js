@@ -63,7 +63,7 @@ function onOpenModalWindowWithGallaryPicture(urlOriginalPicture) {
 
     function onModalKeypressEsc(event){
         if (event.code === 'Escape') { 
-            onClose(instance);
+            instance.close();
         }
     }
 }
